@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import logo from './movie-film-svgrepo-com.svg';
+import logoSocial from './github-svgrepo-com.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Filmoflix</h1>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          A Movies Recommendation App.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <small>releasing soon.</small>
       </header>
+      <p>connect with me.</p><a href="https://github.com/codewithmanas"><img src={logoSocial} className="Social-logo" alt="Social-logo" /></a>
     </div>
   );
 }
