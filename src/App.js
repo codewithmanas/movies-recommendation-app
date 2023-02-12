@@ -1,5 +1,4 @@
 import logo from './movie-film-svgrepo-com.svg';
-import logoSocial from './github-svgrepo-com.svg';
 import './App.css';
 
 function App() {
@@ -13,7 +12,7 @@ function App() {
         </p>
         <small>releasing soon.</small>
       </header>
-      <p>connect with me.</p><a href="https://github.com/codewithmanas"><img src={logoSocial} className="Social-logo" alt="Social-logo" /></a>
+      <a href="https://www.flaticon.com/free-icons/cinema" title="cinema icons">Cinema icons created by Freepik - Flaticon</a>
     </div>
   );
 }
